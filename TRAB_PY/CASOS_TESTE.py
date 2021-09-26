@@ -1,3 +1,4 @@
+#Matheus Collares Rodrigues
 from selenium.webdriver.common.by import By
 from lib import Lib
 from time import sleep
@@ -28,6 +29,7 @@ class TesteUndb (Lib):
     __XPATH_DOWNLOAD_CASE_PAPPER = By.XPATH, '//*[@id="icon"]/iron-icon'
     __LINK_MANUAL_PAPPER = By.XPATH, '//*[@id="module-29818"]/div/div/div[2]/div/a/span'
     __ICON_ID_NOTAS = By.ID, 'actionmenuaction-4'
+
 
     def __init__(self, driver):
         self.driver = driver 
